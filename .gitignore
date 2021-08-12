@@ -1,0 +1,5 @@
+.git
+build
+types
+node_modules
+*.lock

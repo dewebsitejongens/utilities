@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "plugin:@dewebsitejongens/eslint-plugin/recommended"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}

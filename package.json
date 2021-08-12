@@ -1,0 +1,55 @@
+{
+  "name": "@dewebsitejongens/utilities",
+  "version": "0.1.0",
+  "description": "De Website Jongens TypeScript Utilities.",
+  "authors": [
+    {
+      "name": "Nick Vlug",
+      "email": "nick@dewebsitejongens.nl"
+    }
+  ],
+  "license": "GPL-3.0",
+  "keywords": [
+    "websitejongens",
+    "dewebsitejongens",
+    "utilities"
+  ],
+  "homepage": "https://github.com/dewebsitejongens/utilities/tree/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dewebsitejongens/utilities.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dewebsitejongens/utilities/issues"
+  },
+  "scripts": {
+    "bundle": "tsc",
+    "bundle:watch": "tsc -w",
+    "lint": "eslint --fix --ext .tsx,.ts src/**",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "@dewebsitejongens/eslint-plugin": "git+https://github.com/dewebsitejongens/eslint-plugin.git#v0.1.0",
+    "@types/jest": "^27.0.0",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  },
+  "engines": {
+    "node": ">=14",
+    "yarn": ">=1.22"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "build",
+    "types"
+  ],
+  "main": "build/index.js",
+  "types": "types/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  }
+}
